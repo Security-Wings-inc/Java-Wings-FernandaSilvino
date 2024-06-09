@@ -20,6 +20,8 @@ public class Console {
     private Integer idComputador = 0;
     private Integer idMonitoramento = 0;
 
+    private Integer idInovacao = 0;
+
     private LocalDateTime tempo;
 
     public Console() {
@@ -99,6 +101,13 @@ public class Console {
         this.idMonitoramento = idMonitoramento;
     }
 
+    public Integer getIdInovacao() {
+        return idInovacao;
+    }
+
+    public void setIdInovacao(Integer idInovacao) {
+        this.idInovacao = idInovacao;
+    }
 
     // LOGS
     private Integer escolha = 0;
