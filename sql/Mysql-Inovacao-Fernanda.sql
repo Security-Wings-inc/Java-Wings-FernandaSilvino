@@ -161,3 +161,5 @@ fkComputadorESpec INT,
 CONSTRAINT fk_ComputadorESpec FOREIGN KEY (fkComputadorESpec) REFERENCES ComputadorESpec(idComputador)
 );
 select * from inovacao;
+
+SELECT * FROM inovacao 

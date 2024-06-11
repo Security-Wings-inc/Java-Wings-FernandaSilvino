@@ -64,8 +64,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>src.main.java</mainClass>
-                            <mainClass>org.example.ConsoleJAR</mainClass>
+                            <mainClass>org.example.ConsoleService</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -81,5 +80,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
